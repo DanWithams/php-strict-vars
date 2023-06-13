@@ -1,0 +1,21 @@
+{
+    "name": "danwithams/php-strict-vars",
+    "description": "Immitate strictly typed variables",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DanWithams\\PhpStrictVars\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DanWithams",
+            "email": "me@danwithams.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^10.3@dev"
+    }
+}
